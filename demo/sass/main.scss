@@ -77,6 +77,10 @@ span {
 	justify-content: center;
 	align-items: center;
 	padding-top: 10px;
+
+	.btn-normal {
+		margin: 0 5px;
+	}
 	> div {
 		margin: 0 10px;
 	}
@@ -88,6 +92,7 @@ span {
 	&:hover {
 		background: #7e00ff;
 		border: 1px solid #7e00ff;
+		color: #ffffff;
 	}
 }
 

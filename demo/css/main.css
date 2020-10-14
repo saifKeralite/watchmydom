@@ -61,6 +61,8 @@ span {
   justify-content: center;
   align-items: center;
   padding-top: 10px; }
+  .w-c-button-block .btn-normal {
+    margin: 0 5px; }
   .w-c-button-block > div {
     margin: 0 10px; }
 
@@ -70,7 +72,8 @@ span {
   border: 1px solid #000000; }
   .btn-normal:hover {
     background: #7e00ff;
-    border: 1px solid #7e00ff; }
+    border: 1px solid #7e00ff;
+    color: #ffffff; }
 
 .btn-actions {
   padding: 10px 10px;

@@ -4,6 +4,12 @@
 
 # Demo
 
+[Click here](https://saifkeralite.github.io/watchmydom/) to see the detailed demo.
+
+# Download
+
+Minified script file has been added in the `build` folder.
+
 # Installation/Usage
 
 1. Add the library script into your page
