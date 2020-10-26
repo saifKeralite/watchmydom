@@ -1,10 +1,10 @@
 {
 	"name": "watchmydom",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "",
-	"main": "./src/watchmydom.js",
+	"main": "src/watchmydom.js",
 	"scripts": {
-		"start": "./src/watchmydom.js",
+		"start": "src/watchmydom.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"deploy": "gh-pages -d dist"
 	},
