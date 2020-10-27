@@ -38,6 +38,17 @@ watchIt.watch(function (result, info) {
 watchIt.stop();
 ```
 
+# npm Installation
+
+1. Install the package
+   `npm i watchmydom`
+
+2. Use the module as shown below.
+
+```var watchmydom = require('watchmydom');
+var domResults = new watchmydom('.dom-results');
+```
+
 # Methods
 
 | Methods | Usage                      |
