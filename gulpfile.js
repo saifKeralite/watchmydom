@@ -9,7 +9,8 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     injectPartials = require('gulp-inject-partials'),
     uglify = require('gulp-uglify'),
-    pipeline = require('readable-stream').pipeline;
+    pipeline = require('readable-stream').pipeline,
+    rename = require("gulp-rename");
 
 const minify = require("gulp-babel-minify");
 
@@ -17,15 +18,17 @@ const minify = require("gulp-babel-minify");
 * Generating scripts
 */
 gulp.task('script', () =>
-    gulp.src('src/watchmydom.js')
+    gulp.src('src/watchmydom-script.js')
         .pipe(minify())
+        .pipe(rename('watchmydom.js'))
         .pipe(gulp.dest('demo/js'))
 );
 
 
 gulp.task('scriptbuild', function (done) {
-    gulp.src('src/*.js')
+    gulp.src('src/watchmydom-script.js')
         .pipe(minify())
+        .pipe(rename('watchmydom.js'))
         .pipe(gulp.dest('build/'));
     done();
 })

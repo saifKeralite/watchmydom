@@ -1,6 +1,6 @@
 {
 	"name": "watchmydom",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "",
 	"main": "src/watchmydom.js",
 	"scripts": {
@@ -22,6 +22,7 @@
 		"gulp-babel-minify": "^0.5.1",
 		"gulp-cli": "^2.3.0",
 		"gulp-inject-partials": "^1.0.5",
+		"gulp-rename": "^2.0.0",
 		"gulp-sass": "^4.1.0",
 		"gulp-uglify": "^3.0.2",
 		"gulp-webpack": "^1.5.0",

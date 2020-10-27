@@ -73,4 +73,3 @@ watchMyDom.prototype.stop = function () {
 }
 
 
-module.exports = watchMyDom;
