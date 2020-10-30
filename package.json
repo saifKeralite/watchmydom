@@ -1,6 +1,6 @@
 {
 	"name": "watchmydom",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "",
 	"main": "src/watchmydom.js",
 	"scripts": {
@@ -9,8 +9,8 @@
 		"deploy": "gh-pages -d dist"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "saifKeralite",
+	"license": "MIT",
 	"homepage": "https://saifkeralite.github.io/watchmydom/",
 	"devDependencies": {
 		"@babel/core": "^7.11.6",
